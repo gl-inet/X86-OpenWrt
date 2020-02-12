@@ -44,6 +44,8 @@ gslb-eu.goodcloud.xyz;It's for Europe user with Europe server.
 
 gslb-us.goodcloud.xyz;It's for America user with America server.
 
+The ddns,mac,sn need to be obtained from the technician,you can send email to xinshouyong@gl-inet.com for information
+
 The glconfig configuration is as follows
 
 ```
