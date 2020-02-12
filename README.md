@@ -35,9 +35,13 @@ ssh -p 12345 root@127.0.0.1
 ```
 
 Modify the configuration of /etc/config/glconfig (create the glconfig file if not, note that cloud selection should be based on actual needs)
+
 gslb-cn.goodcloud.xyz/gslb.gl-inet.cn;There are two options for Chinese users with the chinese server, and "gslb.gl-inet.cn" is recommended.
+
 gslb-jp.goodcloud.xyz;It's for Global user with Japan server.
+
 gslb-eu.goodcloud.xyz;It's for Europe user with Europe server.
+
 gslb-us.goodcloud.xyz;It's for America user with America server.
 
 The glconfig configuration is as follows
