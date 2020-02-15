@@ -1,6 +1,15 @@
 # Running OpenWrt on X86
 
-This is a OpenWrt image running on X86 Linux Docker. 
+This is a OpenWrt image running on X86 Linux Docker,we did the demo using ubuntu.
+
+If you are on `ubuntu system`, please follow the instructions below to install the wireguard service on the host.Other types of servers require you to query related commands yourself.
+
+```
+$ sudo add-apt-repository ppa:wireguard/wireguard
+$ sudo apt-get update
+$ sudo apt-get install wireguard
+
+```
 
 To use this image, you need to install docker first.
 
@@ -70,15 +79,6 @@ Set firmware version information
 Restart the `MQTT` service
 ```
  /etc/init.d/gl_mqtt restart
-```
-
-If you are on `ubuntu system`, please follow the instructions below to install the wireguard service on the host.Other types of servers require you to query related commands yourself.
-
-```
-$ sudo add-apt-repository ppa:wireguard/wireguard
-$ sudo apt-get update
-$ sudo apt-get install wireguard
-
 ```
 
 Register device information in the corresponding cloud platform
