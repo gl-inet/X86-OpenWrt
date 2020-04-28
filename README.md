@@ -7,11 +7,17 @@ If you are on `ubuntu system`, please follow the instructions below to install t
 ```
 $ sudo add-apt-repository ppa:wireguard/wireguard
 $ sudo apt-get update
-$ sudo apt-get install wireguard
+$ sudo apt-get install wireguard docker.io
 
 ```
+Get the image, and move to directory /opt
 
-To use this image, you need to install docker first.
+```
+$ git clone https://github.com/gl-inet/X86-OpenWrt.git
+$ cd X86-OpenWrt
+$ mv openwrt-x86-64-generic-rootfs.tar.gz /opt
+
+```
 
 Then you can import this image. For example, we name this machine `s2s`
 
